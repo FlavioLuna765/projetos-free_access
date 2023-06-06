@@ -1,0 +1,40 @@
+* {
+
+}
+
+header {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+menu {
+    display: block;
+
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    font-size: 19px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border: 8px;
+
+}
+
+footer {
+    background-color: #777;
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+
+
+
