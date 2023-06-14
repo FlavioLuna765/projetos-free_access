@@ -12,10 +12,8 @@
     <h1>Preencha o Formulário</h1>
 
     <form action="cadastro.php" method="get" autocomplete="on">
-        <fieldset>
+        <fieldset><p>
             <legend>Dados Pessoais</legend>
-
-            <p>
                 <label for="inome"> Nome : </label>
                 <input type="text" name="nome" id="inome" minlength="5" maxlength="20" placeholder=" digite nome completo" required><br>
             </p>
@@ -29,7 +27,6 @@
                 <label for="itel"> Telefone : </label>
                 <input type="tel" name="tel" id="itel" autocomplete="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx" required>
             </p>
-
         </fieldset>
 
         <fieldset>

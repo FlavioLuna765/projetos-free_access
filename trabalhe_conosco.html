@@ -5,21 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhe Conosco</title>
     <link rel="shortcut icon" href="imagens/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/trabalhe_conosco.css">
 </head>
 <body>
-    <h1>Faça parte do grupo da Free Access</h1>
+    <h1>Trabalhe Conosco</h1>
     <p>Preencha seus dados</p>
 
-    <article>
-        <h3>SUPORTE TECNICO E RH</h3>
-        <p>
-            GUILHERME <br>
-
-            É RESPONSAVEL POR ATENDER OS CLIENTES EM CASO DE DUVIDAS, REALIZA O CADASTRO DAS EMPRESAS INTERESSADAS, APLICAR OS TREINAMENTOS PARA O USO DA PLATAFORMA CORRETO E AUXILIA 
-            OS CLIENTES EM CASO DE DUVIDAS.
-
-        </p>
-    </article>
+    <form action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="inome"> Nome : </label>
+                    <input type="text" name="nome" id="inome" minlength="5" maxlength="20" placeholder=" digite nome completo" required><br>
+                </p>
     
+                <p>
+                    <label for="iemail"> E-mail : </label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" placeholder="digite seu email" required>
+                </p>
+    
+                <p>
+                    <label for="itel"> Telefone : </label>
+                    <input type="tel" name="tel" id="itel" autocomplete="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx" required>
+                </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>mensagem opcional</legend>
+            <p>
+                <label for="">Digite a mensagem: </label><br>
+                <textarea name="escreva a mensagem" id="" cols="30" rows="10"></textarea><br>
+            </p>
+        </fieldset>
+
+        <input type="submit" value="Enviar" name="" id="">
+        <input type="reset" value="Limpar" name="" id="">
+    </form>
+
+    <footer>
+        <p>
+            &copy; Desenvolvido pela empresa Free Access
+        </p>
+    </footer>
 </body>
 </html>

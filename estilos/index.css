@@ -24,10 +24,9 @@ menu > ul {
     list-style-type: none;
 }
 
-menu > ul > a {
+menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
     background-color: rgba(128, 128, 128, 0.589);
-
 }
