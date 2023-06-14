@@ -20,6 +20,7 @@ span#burguer {
     background-color: rgb(48, 48, 48);
     color: white;
     display: block;
+    width: 100%;
     padding: 7px;
     cursor: pointer;
 }
