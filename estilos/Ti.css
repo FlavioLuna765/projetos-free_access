@@ -1,0 +1,12 @@
+body {
+    background-color: cadetblue;
+}
+
+footer {
+    background-color: #777;
+    padding: 2px;
+    height: 43px;
+    text-align: center;
+    margin-top: 39px;
+    color: white;
+}
