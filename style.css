@@ -1,7 +1,6 @@
-@charset "UTF-8";
-
 * {
     font-family: Arial, Helvetica, sans-serif;
+
     margin: 0px;
     padding: 0px;
 }
@@ -10,22 +9,33 @@ body, html {
     background-color: lightgrey;
 }
 
+div#img {
+    margin-top: 30px;
+    
+}
+
+div > h2 {
+    text-align: center;
+}
+
 header {
     background-color: gray;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    margin-top: 30px;
 }
+
+header > h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+
 
 span#burguer {
     background-color: rgb(48, 48, 48);
     color: white;
     display: block;
-    width: 100%;
-    padding: 7px;
+    text-align: center;
+    padding: 10px;
     cursor: pointer;
-    margin: 30px;
 }
 
 span#burguer:hover {
@@ -34,7 +44,7 @@ span#burguer:hover {
 }
 
 menu {
-    display: none;
+    display: block;
 
 }
 
@@ -44,14 +54,12 @@ menu > ul {
 
 menu > ul > li > a {
     display: block;
-    font-size: 16px;
-    padding: 10px;
+    padding: 9px;
     text-decoration: none;
     text-align: center;
     background-color: rgb(87, 87, 87);
     color: white;
-    border-top: 2px solid gray;
-
+    border-top: 3px solid gray;
 }
 
 menu >ul > li > a:hover {
@@ -59,13 +67,21 @@ menu >ul > li > a:hover {
 
 }
 
-article {
-    width: 90vw;
-    color: blue;
+main {
+    width: 96vw;
+    background-color: white;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+main > h3 {
+    text-align: center;
+}
+
+main > p {
+    margin-bottom: 8px;
 }
 
 footer {
